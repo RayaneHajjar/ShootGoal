@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Football Infos</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="click.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <div class="jumbotron p-3">
+                <h4 class="d-flex justify-content-center align-items-center">Please choose one of the following leagues to see the list of teams playing the current season..</h4>
+            </div>        
+            <br>
+            <!-- Nav pills -->
+            <ul class="nav nav-pills  d-flex justify-content-center align-items-center" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="search_laliga" data-toggle="pill" href="#laliga">La Liga</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="search_premierleague" data-toggle="pill" href="#premierleague">Premier League</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="search_seriea" data-toggle="pill" href="#seriea">Serie A</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="search_ligue1" data-toggle="pill" href="#ligue1">Ligue 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="search_bundesliga" data-toggle="pill" href="#bundesliga">Bundesliga</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content mt-4">
+                <div class="tab-pane container active card-columns" id="laliga"></div>
+                <div class="tab-pane container fade card-columns" id="premierleague"></div>
+                <div class="tab-pane container fade card-columns" id="seriea"></div>
+                <div class="tab-pane container fade card-columns" id="ligue1"></div>
+                <div class="tab-pane container fade card-columns" id="bundesliga"></div>
+            </div>
+        </div>
+    </body>
+</html>
