@@ -35,7 +35,7 @@ $(document).ready(function () {
                         ' ' +
                         team[11]
                 );
-                cards += `<div class="card text-center" style="width: 18rem; height: 25rem;">
+                cards += `<div class="card text-center">
                             <div class="card-body">
                                 <img class="mb-3" src="${team[6]}">
                                 <h4 class="card-title">${team[1]}</h4>
@@ -82,7 +82,7 @@ $(document).ready(function () {
                         ' ' +
                         team[11]
                 );
-                cards += `<div class="card text-center" style="width: 18rem; height: 25rem;">
+                cards += `<div class="card text-center">
                             <div class="card-body">
                                 <img class="mb-3" src="${team[6]}">
                                 <h4 class="card-title">${team[1]}</h4>
@@ -129,7 +129,7 @@ $(document).ready(function () {
                         ' ' +
                         team[11]
                 );
-                cards += `<div class="card text-center" style="width: 18rem; height: 25rem;">
+                cards += `<div class="card text-center">
                             <div class="card-body">
                                 <img class="mb-3" src="${team[6]}">
                                 <h4 class="card-title">${team[1]}</h4>
@@ -176,7 +176,7 @@ $(document).ready(function () {
                         ' ' +
                         team[11]
                 );
-                cards += `<div class="card text-center" style="width: 18rem; height: 25rem;">
+                cards += `<div class="card text-center">
                             <div class="card-body">
                                 <img class="mb-3" src="${team[6]}">
                                 <h4 class="card-title">${team[1]}</h4>
@@ -223,7 +223,7 @@ $(document).ready(function () {
                         ' ' +
                         team[11]
                 );
-                cards += `<div class="card text-center" style="width: 18rem; height: 25rem;">
+                cards += `<div class="card text-center">
                             <div class="card-body">
                                 <img class="mb-3" src="${team[6]}">
                                 <h4 class="card-title">${team[1]}</h4>
